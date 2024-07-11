@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\WinPOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Controlador.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Controlador.csproj",
+        "projectName": "Controlador",
+        "projectPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Controlador.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Entidad.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Entidad.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Entidad.csproj",
+        "projectName": "Entidad",
+        "projectPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Entidad.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\WinPOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\WinPOS.csproj",
+        "projectName": "WinPOS",
+        "projectPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\WinPOS.csproj",
+        "packagesPath": "C:\\Users\\Kano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Controlador.csproj": {
+                "projectPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Controlador.csproj"
+              },
+              "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Entidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

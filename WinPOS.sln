@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinPOS", "WinPOS\WinPOS.csproj", "{10A6265D-3751-4CE5-8023-BAA9D35B704B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controlador", "Controlador\Controlador.csproj", "{D2312539-EACA-46EB-8E13-5BDBA5761B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidad", "Entidad\Entidad.csproj", "{86A344FB-7672-40C5-B0E2-B0500FFBC910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A6265D-3751-4CE5-8023-BAA9D35B704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A6265D-3751-4CE5-8023-BAA9D35B704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A6265D-3751-4CE5-8023-BAA9D35B704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A6265D-3751-4CE5-8023-BAA9D35B704B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2312539-EACA-46EB-8E13-5BDBA5761B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2312539-EACA-46EB-8E13-5BDBA5761B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2312539-EACA-46EB-8E13-5BDBA5761B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2312539-EACA-46EB-8E13-5BDBA5761B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A344FB-7672-40C5-B0E2-B0500FFBC910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A344FB-7672-40C5-B0E2-B0500FFBC910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A344FB-7672-40C5-B0E2-B0500FFBC910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A344FB-7672-40C5-B0E2-B0500FFBC910}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE1B00E2-5217-4081-A1EF-5D058D784D22}
+	EndGlobalSection
+EndGlobal
