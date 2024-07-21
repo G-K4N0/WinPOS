@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinPOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49cbd35644fc843dca12fd1c8e0a1fcc620dbeec")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinPOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinPOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

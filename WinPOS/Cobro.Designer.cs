@@ -66,6 +66,7 @@
             txtEfectivo.Size = new Size(384, 44);
             txtEfectivo.TabIndex = 2;
             txtEfectivo.TextAlign = HorizontalAlignment.Center;
+            txtEfectivo.TextChanged += txtEfectivo_TextChanged;
             // 
             // btnCambio
             // 

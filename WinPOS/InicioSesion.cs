@@ -1,5 +1,4 @@
 using Controlador;
-using MySqlConnector;
 namespace WinPOS
 {
     public partial class FInciarSesion : Form
@@ -12,32 +11,55 @@ namespace WinPOS
 
         private void btnInciarSesion_Click(object sender, EventArgs e)
         {
-            string result = "";
-            conexion = new Conexion();
+            string user = txtUserName.Text;
+            string passwd = txtPassword.Text;
 
-            MySqlDataReader lector = null;
+            iniciarSesion(user, passwd);
+        }
 
-            string consulta = "select * from personas";
+        private void iniciarSesion(string user, string passwd)
+        {
+            Consultas consultas = new Consultas();
 
-            if (conexion.getConecction() != null)
+            Dictionary<string, object> resultado = consultas.checkUser(user, passwd);
+
+            if (resultado.ContainsKey("error"))
             {
-                MySqlCommand cmd = new MySqlCommand(consulta);
-                cmd.Connection = conexion.getConecction();
-                lector = cmd.ExecuteReader();
-
-                while (lector.Read()) {
-                    result = lector.GetInt32("idRol").ToString();
-                }
-                MessageBox.Show(result);
+                MessageBox.Show(resultado["error"].ToString());
             }
-            //VendedorInicio vendedor = new VendedorInicio();
-            //vendedor.Show();
-            //this.Hide();
+            else
+            {
+                string rol = resultado["rol"].ToString();
+                int id = (int)resultado["id"];
+
+                if (rol == "admin")
+                {
+                    this.Hide();
+                    AdministradorInicio admin = new AdministradorInicio(id);
+                    admin.Show();
+                }
+                else if (rol == "vendedor")
+                {
+                    VendedorInicio vendedor = new VendedorInicio(id);
+                    vendedor.Show();
+                    this.Hide();
+                }
+            }
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string user = txtUserName.Text;
+            string pass = txtPassword.Text;
+            if (e.KeyChar == (char)Keys.Enter) {
+
+                iniciarSesion(user, pass);
+            }
         }
     }
 }

@@ -22,15 +22,41 @@ namespace Controlador
                 + "; UID=" + username
                 + "; PASSWORD=" + password + ";";
         }
-
-        public MySqlConnection getConecction()
+        public MySqlConnection getConnection()
         {
             if (_connection == null)
             {
-                _connection = new MySqlConnection(cadenaConexion);
-                _connection.Open();
+                try
+                {
+                    _connection = new MySqlConnection(cadenaConexion);
+                    _connection.Open();
+                }
+                catch (MySqlException ex)
+                {
+                    // Manejo de excepciones (log, rethrow, etc.)
+                    Console.WriteLine($"Error al abrir la conexión: {ex.Message}");
+                    throw;
+                }
             }
             return _connection;
         }
+
+        public void CloseConnection()
+        {
+            if (_connection != null)
+            {
+                try
+                {
+                    _connection.Close();
+                    _connection = null;
+                }
+                catch (MySqlException ex)
+                {
+                    // Manejo de excepciones (log, etc.)
+                    Console.WriteLine($"Error al cerrar la conexión: {ex.Message}");
+                }
+            }
+        }
+
     }
 }

@@ -8,13 +8,16 @@ namespace Entidad
 {
     public class Categoria
     {
-        private int _id { get; set; }
-        private string _name { get; set; }
+        private int _id;
+        public int Id { get; set; }
+        private string _categoria;
+        public string Categorias{ get; set; }
 
-        public Categoria(int id, string name)
+        public Categoria(int id, string categoria)
         {
             _id = id;
-            _name = name;
+            _categoria = categoria;
         }
+        public Categoria() { }
     }
 }

@@ -95,3 +95,23 @@ insert into roles (rol) values ('vendedor')
 #Agregado del primer usuario
 insert into personas (nombre,usuario,passwd,idRol) values ('Kano','admin','talento',1);
 
+
+###########################Consultas#############################
+ **********Para inicio de sesion*******************
+ select personas.id AS id, personas.nombre as nombre, personas.usuario as usuario, personas.passwd as password, roles.rol as rol 
+from personas 
+inner join roles on personas.idRol = roles.id where personas.usuario='admin' and personas.passwd='talento';
+
+*******************************-- Traer Productos -***************************************
+
+SELECT productos.id,productos.codigo, productos.nombre, productos.descripcion, categorias.categoria, productos.precioUnitario, productos.precioMayoreo, productos.precioTemporada, productos.stock
+FROM productos 
+INNER JOIN categorias 
+ON productos.idCategoria = categorias.id;
+
+**************************************---------------->Busqueda de producto <------------------------------***********************************
+SELECT codigo,nombre,descripcion,categoria,precioUnitario,precioMayoreo,precioTemporada FROM productos INNER JOIN categorias ON productos.idCategoria =  categorias.id where producto
+s.codigo = "";
+
+************************************-----------------> Update <-----------------------------------************************
+UPDATE productos set codigo = '0000000000002' where nombre = 'Libreta Cuadro Chico'

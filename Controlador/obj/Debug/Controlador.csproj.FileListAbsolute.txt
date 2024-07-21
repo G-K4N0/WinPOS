@@ -22,3 +22,7 @@ C:\Users\Kano\Documents\Projects\WinPOS\Controlador\obj\Debug\Controlador.csproj
 C:\Users\Kano\Documents\Projects\WinPOS\Controlador\obj\Debug\Controla.6B62700F.Up2Date
 C:\Users\Kano\Documents\Projects\WinPOS\Controlador\obj\Debug\Controlador.dll
 C:\Users\Kano\Documents\Projects\WinPOS\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Kano\Documents\Projects\WinPOS\Controlador\bin\Debug\Entidad.dll
+C:\Users\Kano\Documents\Projects\WinPOS\Controlador\bin\Debug\Entidad.pdb
+C:\Users\Kano\Documents\Projects\WinPOS\Controlador\obj\Debug\Controlador.Properties.Resources.resources
+C:\Users\Kano\Documents\Projects\WinPOS\Controlador\obj\Debug\Controlador.csproj.GenerateResource.cache

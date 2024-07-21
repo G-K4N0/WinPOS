@@ -44,7 +44,7 @@
             txtUserName.BackColor = SystemColors.ScrollBar;
             txtUserName.BorderStyle = BorderStyle.None;
             txtUserName.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtUserName.Location = new Point(196, 311);
+            txtUserName.Location = new Point(197, 342);
             txtUserName.Name = "txtUserName";
             txtUserName.PlaceholderText = "Usuario";
             txtUserName.Size = new Size(273, 31);
@@ -57,13 +57,14 @@
             txtPassword.BackColor = SystemColors.ScrollBar;
             txtPassword.BorderStyle = BorderStyle.None;
             txtPassword.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtPassword.Location = new Point(196, 363);
+            txtPassword.Location = new Point(197, 394);
             txtPassword.Name = "txtPassword";
             txtPassword.PlaceholderText = "Contraseña";
             txtPassword.Size = new Size(273, 31);
             txtPassword.TabIndex = 1;
             txtPassword.TextAlign = HorizontalAlignment.Center;
             txtPassword.UseSystemPasswordChar = true;
+            txtPassword.KeyPress += txtPassword_KeyPress;
             // 
             // btnInciarSesion
             // 
@@ -71,7 +72,7 @@
             btnInciarSesion.BackColor = Color.Lime;
             btnInciarSesion.Cursor = Cursors.Hand;
             btnInciarSesion.FlatAppearance.BorderSize = 0;
-            btnInciarSesion.Location = new Point(391, 420);
+            btnInciarSesion.Location = new Point(388, 465);
             btnInciarSesion.Name = "btnInciarSesion";
             btnInciarSesion.Size = new Size(177, 47);
             btnInciarSesion.TabIndex = 2;
@@ -83,7 +84,7 @@
             // 
             pbLogo.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pbLogo.Image = (Image)resources.GetObject("pbLogo.Image");
-            pbLogo.Location = new Point(185, 5);
+            pbLogo.Location = new Point(188, 23);
             pbLogo.Name = "pbLogo";
             pbLogo.Size = new Size(294, 285);
             pbLogo.TabIndex = 3;
@@ -94,7 +95,7 @@
             lblNameService.Anchor = AnchorStyles.None;
             lblNameService.AutoSize = true;
             lblNameService.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblNameService.Location = new Point(242, -159);
+            lblNameService.Location = new Point(242, -201);
             lblNameService.Name = "lblNameService";
             lblNameService.Size = new Size(209, 41);
             lblNameService.TabIndex = 4;
@@ -106,7 +107,7 @@
             btnCerrar.BackColor = Color.Red;
             btnCerrar.Cursor = Cursors.Hand;
             btnCerrar.ForeColor = SystemColors.ButtonFace;
-            btnCerrar.Location = new Point(122, 420);
+            btnCerrar.Location = new Point(119, 465);
             btnCerrar.Name = "btnCerrar";
             btnCerrar.Size = new Size(177, 47);
             btnCerrar.TabIndex = 5;

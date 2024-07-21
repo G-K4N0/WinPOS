@@ -13,36 +13,36 @@ namespace WinPOS
 {
     public partial class VendedorInicio : Form
     {
-        public VendedorInicio()
+        private int idUsuario;
+        public VendedorInicio(int id)
         {
             InitializeComponent();
-        }
-
-        private void btnBuscar_Click(object sender, EventArgs e)
-        {
-            FBusqueda busqueda = new FBusqueda();
-            busqueda.Show();
-        }
-
-        private void btnCobrar_Click(object sender, EventArgs e)
-        {
-            Cobro cobro = new Cobro();
-            cobro.Show();
+            this.idUsuario = id;
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            FInciarSesion sesion = new FInciarSesion();
+            sesion.Show();
+            this.Close();
         }
 
-        private void txtBusqueda_KeyPress(object sender, KeyPressEventArgs e)
+        private void abrirFormDentroPanel(object formHijo)
         {
-            if (e.KeyChar == (char)Keys.Enter)
-            {
-                string codigo = txtBusqueda.Text;
-                Consultas consultas = new Consultas();
-                consultas.productoVenta(codigo);
-            }
+            if (this.paneContenedorEmpleado.Controls.Count > 0)
+                this.paneContenedorEmpleado.Controls.RemoveAt(0);
+
+            Form form = formHijo as Form;
+            form.TopLevel = false;
+            form.Dock = DockStyle.Fill;
+            this.paneContenedorEmpleado.Controls.Add(form);
+            this.paneContenedorEmpleado.Tag = form;
+            form.Show();
+        }
+
+        private void reimprimirTicketToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            abrirFormDentroPanel(new VentaVista());
         }
     }
 }

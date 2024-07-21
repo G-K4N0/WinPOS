@@ -1,12 +1,273 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\ventavista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\ventavista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|c:\\users\\kano\\documents\\projects\\winpos\\controlador\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|solutionrelative:controlador\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\winpos\\vendedorinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\vendedorinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\impresora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\impresora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\vendedorinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\vendedorinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Controlador||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\cobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\cobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|c:\\users\\kano\\documents\\projects\\winpos\\controlador\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|solutionrelative:controlador\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\controlador\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|solutionrelative:controlador\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A344FB-7672-40C5-B0E2-B0500FFBC910}|Entidad\\Entidad.csproj|C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\entidad\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A344FB-7672-40C5-B0E2-B0500FFBC910}|Entidad\\Entidad.csproj|solutionrelative:entidad\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|c:\\users\\kano\\documents\\projects\\winpos\\winpos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\winpos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10A6265D-3751-4CE5-8023-BAA9D35B704B}|WinPOS\\WinPOS.csproj|solutionrelative:winpos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|c:\\users\\kano\\documents\\projects\\winpos\\controlador\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{D2312539-EACA-46EB-8E13-5BDBA5761B62}|Controlador\\Controlador.csproj|solutionrelative:controlador\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Impresora.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Impresora.cs",
+              "RelativeDocumentMoniker": "WinPOS\\Impresora.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Impresora.cs",
+              "RelativeToolTip": "WinPOS\\Impresora.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA2wCgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T18:41:48.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VendedorInicio.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\VendedorInicio.cs",
+              "RelativeDocumentMoniker": "WinPOS\\VendedorInicio.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\VendedorInicio.cs",
+              "RelativeToolTip": "WinPOS\\VendedorInicio.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:58:37.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VentaVista.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\VentaVista.cs",
+              "RelativeDocumentMoniker": "WinPOS\\VentaVista.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\VentaVista.cs",
+              "RelativeToolTip": "WinPOS\\VentaVista.cs",
+              "ViewState": "AQIAABgBAAAAAAAAAAAAwCQBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:58:18.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "WinPOS\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Properties\\Settings.settings",
+              "RelativeToolTip": "WinPOS\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-07-21T18:45:39.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Controlador",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Controlador.csproj",
+              "RelativeDocumentMoniker": "Controlador\\Controlador.csproj",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Controlador.csproj",
+              "RelativeToolTip": "Controlador\\Controlador.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-21T18:36:09.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Ticket.cs",
+              "RelativeDocumentMoniker": "Controlador\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Ticket.cs",
+              "RelativeToolTip": "Controlador\\Ticket.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:52:36.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VendedorInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\VendedorInicio.cs",
+              "RelativeDocumentMoniker": "WinPOS\\VendedorInicio.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\VendedorInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinPOS\\VendedorInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:58:33.421Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cobro.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Cobro.cs",
+              "RelativeDocumentMoniker": "WinPOS\\Cobro.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Cobro.cs",
+              "RelativeToolTip": "WinPOS\\Cobro.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:35:17.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Conexion.cs",
+              "RelativeDocumentMoniker": "Controlador\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Conexion.cs",
+              "RelativeToolTip": "Controlador\\Conexion.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:01:18.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InicioSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\InicioSesion.cs",
+              "RelativeDocumentMoniker": "WinPOS\\InicioSesion.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\InicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinPOS\\InicioSesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T04:05:53.69Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\InicioSesion.cs",
+              "RelativeDocumentMoniker": "WinPOS\\InicioSesion.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\InicioSesion.cs",
+              "RelativeToolTip": "WinPOS\\InicioSesion.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwCoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T04:05:57.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Consultas.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Consultas.cs",
+              "RelativeDocumentMoniker": "Controlador\\Consultas.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Controlador\\Consultas.cs",
+              "RelativeToolTip": "Controlador\\Consultas.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:22:13.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Productos.cs",
+              "RelativeDocumentMoniker": "Entidad\\Productos.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\Entidad\\Productos.cs",
+              "RelativeToolTip": "Entidad\\Productos.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAYwFEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T18:17:12.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Productos.cs",
+              "RelativeDocumentMoniker": "WinPOS\\Productos.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Productos.cs",
+              "RelativeToolTip": "WinPOS\\Productos.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAA9wLAAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T04:11:35.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Productos.cs",
+              "RelativeDocumentMoniker": "WinPOS\\Productos.cs",
+              "ToolTip": "C:\\Users\\Kano\\Documents\\Projects\\WinPOS\\WinPOS\\Productos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinPOS\\Productos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T04:11:31.299Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
